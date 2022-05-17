@@ -1,15 +1,28 @@
 import React from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+import Resume from '../Resume';
+import Projects from '../Projects';
 
-function Portfolio(props) {
-  const { currentCategory } = props;
-  return (
-    <section>
-      <p>Portfolio</p>
-      <h1 data-testid="h1tag">{capitalizeFirstLetter(currentCategory.name)}</h1>
-      <p>{currentCategory.description}</p>
+function Portfolio ({ currentCategory }) {
+  const { name } = currentCategory;
 
-    </section>
-  );
+  return(
+      <section>
+          {name === 'resume' ? (
+              <>
+                <Resume
+                  name={name}
+                ></Resume>
+              </>
+          ) : (
+              <div className="2xl:container 2xl:mx-auto 2xl:px-0 py-3 px-10">
+                <Projects
+                  name={name}
+                ></Projects>
+              </div>
+          )
+        }
+      </section>
+  )
 }
+
 export default Portfolio;

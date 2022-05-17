@@ -36,7 +36,7 @@ body {
   font-size: 18px;
   letter-spacing: .1em;
   background: var(--backgrnd);
-  color: var(--light);
+  color: var(--dark);
   font-family: 'verdana' , cursive;
 
 }
@@ -97,7 +97,7 @@ header {
 }
 
 header a {
-  color: var(--light);
+  color: var(--dark);
 }
 
 button {
@@ -283,7 +283,7 @@ button {
 
 a {
 	border-radius: 5px;
-	color: var(--primary);
+	color: var(--dark);
 	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;
