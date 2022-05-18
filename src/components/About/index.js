@@ -6,10 +6,10 @@ function About() {
   return (
     <section className="my-5" >
       <h1 id="about">About Me</h1>
-      <img src={coverImage} className="my-2" style={{ width: "15%", height: "15%"}} alt="cover" />
+      <img src={coverImage} className="my-2" style={{ width: "15%", height: "15%"}} class="img-fluid" alt="cover" />
       <div className="my-2">
         <p>
-          I used to be a senior software developer in Informix 4gl and worked with Oracle, Informix, Sql and Sybase Databases, i did work for 16 years doing this job, then i came to the United States, worked on remodeling for several years and now im finishing the coding bootcamp at UCF to become a full stack web developer, im married, father of one girl and one boy, and i like to coding.
+          My name is Diego Restrepo and I am a Software Engineering and a recently graduated Full Stack Web Developer from UCF coding bootcamp. I am a fast learner and accomplished coder and programmer, and I will enjoy using my skills to contribute to my future employers. I graduated in 1998 from the University Antonio Narino in Medellin, Colombia with a Bachelor's Degree in Software Development. I love cats and like to do home remodeling
       </p>
       </div>
     </section>
