@@ -24,8 +24,8 @@ function Nav(props) {
                 <ul className="flex flex-row md:text-xl text-lg">
                     <li className="md:mx-3 mx-2">
                         <a data-testid="about" className={`hover:text-sky-200 ${
-                            aboutSelected && !contactSelected && 'text-amber-200 hover:text-amber-300'
-                            }`} href="#about" onClick={() => { setContactSelected(false); setAboutSelected(true);}}>About<span className="hidden 2xl:contents xl:contents lg:contents md:contents"> Me</span></a>
+                            aboutSelected && !contactSelected && 'text-amber-200 hover:text-amber-300  navActive'
+                            }`} href="#about" onClick={() => { setContactSelected(false); setAboutSelected(true);}}>About Me</a>
                     </li>
                 {categories.map(category => (
                     <li
@@ -34,7 +34,7 @@ function Nav(props) {
                     >
                     <a   
                         className={`hover:text-sky-200 ${
-                            currentCategory.name === category.name && !contactSelected && !aboutSelected && 'text-amber-200 hover:text-amber-300'
+                            currentCategory.name === category.name && !contactSelected && !aboutSelected && 'text-amber-200 hover:text-amber-300 navActive' 
                             }`}
                         href={`#${category.name}`}
                         onClick={() => {
@@ -48,7 +48,7 @@ function Nav(props) {
                     </li>
                 ))}
                     <li className="md:mx-3 mx-2">
-                        <a className={`hover:text-sky-200 ${contactSelected && 'text-amber-200 hover:text-amber-300'}`} href="#contact" onClick={() => { setContactSelected(true); setAboutSelected(false); }}>Contact</a>
+                        <a className={`hover:text-sky-200 ${contactSelected && 'text-amber-200 hover:text-amber-300  navActive'}`} href="#contact" onClick={() => { setContactSelected(true); setAboutSelected(false); }}>Contact</a>
                     </li>
                 </ul>
             </nav>
