@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.def2b5c3.css",
-    "main.js": "/react-portfolio/static/js/main.ec2e0682.js",
+    "main.js": "/react-portfolio/static/js/main.205a9035.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/1.PNG": "/react-portfolio/static/media/1.91315a342d5a82c78e9e.PNG",
+    "static/media/2.PNG": "/react-portfolio/static/media/2.91315a342d5a82c78e9e.PNG",
     "static/media/photo diego.jpg": "/react-portfolio/static/media/photo diego.0c8582333e0fb20d5cd0.jpg",
-    "static/media/5.PNG": "/react-portfolio/static/media/5.cc60e7ec6bdabee07c0e.PNG",
-    "static/media/0.PNG": "/react-portfolio/static/media/0.7aa116000a2a8cc4f83a.PNG",
-    "static/media/4.PNG": "/react-portfolio/static/media/4.a924ff22f39e6f818d67.PNG",
-    "static/media/3.PNG": "/react-portfolio/static/media/3.398beb9e4e0b6ffb8c52.PNG",
+    "static/media/6.PNG": "/react-portfolio/static/media/6.cc60e7ec6bdabee07c0e.PNG",
+    "static/media/1.PNG": "/react-portfolio/static/media/1.7aa116000a2a8cc4f83a.PNG",
+    "static/media/5.PNG": "/react-portfolio/static/media/5.a924ff22f39e6f818d67.PNG",
+    "static/media/0.PNG": "/react-portfolio/static/media/0.7982ede597f99bacd764.PNG",
+    "static/media/4.PNG": "/react-portfolio/static/media/4.398beb9e4e0b6ffb8c52.PNG",
     "static/media/Diego Restrepo's Resume.pdf": "/react-portfolio/static/media/Diego Restrepo's Resume.adc2ba0147353f9a4311.pdf",
-    "static/media/2.PNG": "/react-portfolio/static/media/2.b0245322e9806a342561.PNG",
+    "static/media/3.PNG": "/react-portfolio/static/media/3.b0245322e9806a342561.PNG",
     "index.html": "/react-portfolio/index.html",
     "main.def2b5c3.css.map": "/react-portfolio/static/css/main.def2b5c3.css.map",
-    "main.ec2e0682.js.map": "/react-portfolio/static/js/main.ec2e0682.js.map",
+    "main.205a9035.js.map": "/react-portfolio/static/js/main.205a9035.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.def2b5c3.css",
-    "static/js/main.ec2e0682.js"
+    "static/js/main.205a9035.js"
   ]
 }
