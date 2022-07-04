@@ -10,10 +10,16 @@ function Projects({ name }) {
 
   const [apps] = useState([
     {
+      name: <>DevHub</>,
+      Github: "https://github.com/dieres2010/DevHub.git",
+      appUrl: "https://whispering-island-67364.herokuapp.com/",
+      index: 1,
+    },
+    {
       name: <>Loan Me a Home</>,
       Github: "https://github.com/dieres2010/loanMeAHome.git",
       appUrl: "https://loanmeahome.herokuapp.com/",
-      index: 1,
+      index: 2,
     },
     {
       name: <>Git Pokemon</>,
@@ -26,25 +32,25 @@ function Projects({ name }) {
       Github: "https://github.com/dieres2010/budget-tracker.git",
       appUrl:
         "https://ancient-journey-63025.herokuapp.com/",
-      index: 3,
+      index: 4,
     },
     {
       name: <>Note Taker</>,
       Github: "https://github.com/dieres2010/note-taker.git",
       appUrl: "https://infinite-crag-03666.herokuapp.com/",
-      index: 4,
+      index: 5,
     },
     {
       name: <>Coding-Quiz</>,
       Github: "https://github.com/dieres2010/coding-quiz.git",
       appUrl: "https://dieres2010.github.io/coding-quiz/",
-      index: 5,
+      index: 6,
     },
     {
       name: <>Password Generator</>,
       Github: "https://github.com/dieres2010/passwd-generator.git",
       appUrl: "https://dieres2010.github.io/passwd-generator/",
-      index: 5,
+      index: 7,
     },
   ]);
 
